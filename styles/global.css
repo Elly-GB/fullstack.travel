@@ -11,8 +11,14 @@
   --shape-trans: #ffffff56;
   --text-color: #313131;
   --text-color-s: #6c6c6c;
+  --font-family: font-family: "Poppins", serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16px/1.5% var(--font-family);
+  --text-md: 14px/170% var(--font-family);
+  --text-sm: 12px/170% var(--font-family);
 }
 
 body {
-  color: var(--text-color-s)
+  color: var(--text);
+  background-color: var(--background-color);
 }
