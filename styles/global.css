@@ -3,3 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --brand-color: #EF5F4C;
+  --background-color: #ffffff;
+  --surface-color:#D9D9D9;
+  --shape-trans: #ffffff56;
+  --text-color: #313131;
+  --text-color-s: #6c6c6c;
+}
+
+body {
+  color: var(--text-color-s)
+}
